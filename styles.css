@@ -1,5 +1,5 @@
 * {
-    background-color: black;
+    background-color: #D5D0CD;
 }
 
 body {
@@ -14,9 +14,10 @@ header {
 }
 
 .theme {
-    background-color: blue;
+    background-color: #36494E;
     color: white;
     margin: 1%;
+    border-radius: 20%;
 }
 
 #me {
@@ -28,24 +29,30 @@ header {
 
 #name {
     font-size:100px;
-    color: white;
+    color: #36494E;
 }
 
 #title {
     font-size:65px;
-    color: blue;
+    color: white;
 }
 
 h2 {
-    color: white;
+    color: #36494E;
+    font-size: 30px;
 }
 
 h3 {
-    color: white;
+    color: #36494E;
 }
 
 p {
-    color: white;
+    color: #36494E;
+    font-size: 20px;
+}
+
+em {
+    font-weight: bold;
 }
 
 #about-me {
@@ -70,11 +77,10 @@ p {
 }
 
 aside {
-    display: block;
     width: 30%;
     padding-left: 15px;
     margin-left: 15px;
     float: right;
     font-style: italic;
-    background-color: lightgray;
+    background-color: white;
 }
