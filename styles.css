@@ -13,18 +13,14 @@ header {
     justify-content: center;
 }
 
-.theme {
-    background-color: #36494E;
-    color: white;
-    margin: 1%;
-    border-radius: 20%;
-}
-
 #me {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    
 }
 
 #name {
@@ -58,12 +54,13 @@ em {
 
 #about-me {
     width: 60vw;
-    margin: 4%;
+    margin: 18%;
+    position:absolute;
 }
 
 #skills {
     width: 60vw;
-    margin: 4%;
+    margin: 18%
 }
 
 #logos {
@@ -78,11 +75,10 @@ em {
 }
 
 aside {
-    position: absolute;
+    position: sticky;
     display: flex;
     flex-direction: column;
-    top: 300px;
-    right: 0px;
+    top: 290px;
     background-color: #D5D0CD;
     height: 50vh;
     width: 12vw;
