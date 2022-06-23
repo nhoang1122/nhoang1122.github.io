@@ -19,7 +19,7 @@ aside {
     flex-direction: column;
     top: 290px;
     background-color: #D5D0CD;
-    height: 50vh;
+    height: 35vh;
     width: 12vw;
     align-items: center;
     align-content: center;
@@ -67,20 +67,31 @@ em {
 }
 
 #about-me {
-    width: 60vw;
+    width: 80vw;
     margin: 18%;
     position:absolute;
 }
 
+#headshot {
+    width: 400px;
+    height: 400px;
+    margin: 10%;
+}
+
+#top-section {
+    display: flex;
+    flex-direction: row;
+}
+
 #skills {
-    width: 60vw;
+    width: 80vw;
     margin: 18%;
     /* position: absolute;
     top: 500px; */
 }
 
 #projects {
-    width: 60vw;
+    width: 80vw;
     margin: 18%;
     /* position: absolute;
     top: 900px; */
