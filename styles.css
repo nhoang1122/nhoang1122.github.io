@@ -59,10 +59,14 @@ p {
 }
 
 #logos {
-    width: 60vw;
-    height: 20vh;
-    background-color: white;
-    border: 1px solid white;
+    width: 80vw;
+    height: 40vh;
+}
+
+.img {
+    width: 13vw;
+    height: 13vh;
+    margin: 1%;
 }
 
 aside {
