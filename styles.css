@@ -13,6 +13,20 @@ header {
     justify-content: center;
 }
 
+aside {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    top: 290px;
+    background-color: #D5D0CD;
+    height: 50vh;
+    width: 12vw;
+    align-items: center;
+    align-content: center;
+    border: 2px solid white;
+    margin-right: 1%;
+}
+
 #me {
     display: flex;
     flex-direction: row;
@@ -60,7 +74,16 @@ em {
 
 #skills {
     width: 60vw;
-    margin: 18%
+    margin: 18%;
+    /* position: absolute;
+    top: 500px; */
+}
+
+#projects {
+    width: 60vw;
+    margin: 18%;
+    /* position: absolute;
+    top: 900px; */
 }
 
 #logos {
@@ -74,22 +97,21 @@ em {
     margin: 1%;
 }
 
-aside {
-    position: sticky;
-    display: flex;
-    flex-direction: column;
-    top: 290px;
-    background-color: #D5D0CD;
-    height: 50vh;
-    width: 12vw;
-    align-items: center;
-    align-content: center;
-    border: 2px solid white;
-    margin-right: 1%;
-}
-
 .side-logo {
     width: 10vw;
     height: 10vh;
     margin: 2%;
+}
+
+.links {
+    font-size: 15px;
+}
+
+#link-section {
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    display: flex;
+    align-items: baseline;
 }
