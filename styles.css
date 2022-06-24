@@ -1,11 +1,9 @@
-* {
-    background-color: #D5D0CD;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: #D5D0CD;
 }
 
 /* #wallpaper {
