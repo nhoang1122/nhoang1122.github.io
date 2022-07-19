@@ -347,7 +347,7 @@ img {
     /* display: flex;
     flex-direction: column; */
     height: 400px;
-    width: 550px;
+    width: 450px;
     margin-right: 5px;
     flex-shrink: 0;
     scroll-snap-align: start;
