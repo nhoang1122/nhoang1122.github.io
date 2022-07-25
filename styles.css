@@ -336,6 +336,7 @@ img {
 }
 
 .work__container {
+    height: 700px;
     overflow: auto;
     display: flex;
     scroll-snap-type: x mandatory;
