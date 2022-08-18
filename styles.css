@@ -336,7 +336,7 @@ img {
 }
 
 .work__container {
-    height: 700px;
+    height: 600px;
     overflow: auto;
     display: flex;
     scroll-snap-type: x mandatory;
@@ -352,6 +352,25 @@ img {
     margin-right: 5px;
     flex-shrink: 0;
     scroll-snap-align: start;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  all: unset;
+  margin-right: 5px;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: gray;
+  margin-top: 10px;
+}
+
+.dot:focus {
+  background-color: var(--first-color)
 }
 
 /* ===== FOOTER =====*/
