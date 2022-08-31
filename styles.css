@@ -373,6 +373,15 @@ img {
   background-color: var(--first-color)
 }
 
+.work-img {
+  width: 340px;
+  height: 200px;
+
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
